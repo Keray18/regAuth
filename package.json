@@ -1,0 +1,29 @@
+{
+  "name": "reg_auth",
+  "version": "1.0.0",
+  "description": "Registration and Authentication",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Keray18/regAuth.git"
+  },
+  "author": "Keshav Bahoray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Keray18/regAuth/issues"
+  },
+  "homepage": "https://github.com/Keray18/regAuth#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^8.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
