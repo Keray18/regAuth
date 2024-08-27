@@ -1,9 +1,10 @@
 const express = require("express")
 const { errorHandler } = require("./midellerware/errorMiddleware")
+const connectDB = require("./config/db")
 
-const PORT = 5000
+const PORT = 8000
 
-
+connectDB()
 const app = express()
 
 app.use(express.json())
