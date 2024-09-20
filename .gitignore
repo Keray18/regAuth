@@ -1,2 +1,5 @@
 # misc
 .env
+
+# nodeModules
+node_modules
